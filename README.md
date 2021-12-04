@@ -63,3 +63,9 @@ Now when I open PowerShell, I see the new prompt. Note below that the Git inform
 Also note that the when viewing the git status from the git bash prompt, the git status shows four untracked files, shown in the oh-my-posh prompt with a `+4`, and one modified file, shown in the oh-my-posh prompt with a `~1`.
 
 The result is a more attractive prompt with useful information.
+
+## Update Visual Studio Code PowerShell Prompt
+
+To update my Visual Studio Code PowerShell prompt, I went to `Settings | Text Editor | Font | Font Family` and added `CaskaydiaCove Nerd Font`.
+
+<img src="images/vscodeFontSetting.png" alt="VS Code Font Setting" width="800"/>
