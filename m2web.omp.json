@@ -112,19 +112,16 @@
                 },
                 {
                     "type": "exit",
-                    "style": "powerline",
-                    "powerline_symbol": "",
-                    "invert_powerline": false,
+                    "style": "diamond",
                     "foreground": "#ffffff",
-                    "background": "#2e9599",
+                    "background": "#00897b",
+                    "background_templates": ["{{ if gt .Code 0 }}#e91e63{{ end }}"],
                     "leading_diamond": "",
-                    "trailing_diamond": "",
+                    "trailing_diamond": "\uE0B4",
                     "properties": {
                         "always_enabled": true,
-                        "color_background": true,
-                        "display_exit_code": false,
-                        "error_color": "#f1184c",
-                        "prefix": " "
+                        "template": "\uE23A",
+                        "prefix": "<parentBackground>\uE0B0</> "
                     }
                 }
             ]
