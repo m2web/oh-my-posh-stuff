@@ -53,6 +53,8 @@ You can also set the default font in the PowerShell settings.json file:
 // more stuff in the settings.json file
 ```
 
+## The Result
+
 Now when I open PowerShell, I see the new prompt. Note below that the Git information is displayed with a yellow background.  
 <!-- ![PowerShell Oh My Posh](images/oh-my-posh-result-with-git.png) -->
 <!-- using HTML markup, as I can set the image size using the width and attribute. -->
