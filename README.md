@@ -2,13 +2,13 @@
 
 ## The Start
 
-Per https://www.hanselman.com/blog/my-ultimate-powershell-prompt-with-oh-my-posh-and-the-windows-terminal I had the following already:
+Per https://www.hanselman.com/blog/my-ultimate-powershell-prompt-with-oh-my-posh-and-the-windows-terminal I had the following already installed:
 - .NET Core-powered cross-platform PowerShell
 - Windows Terminal
 
 ## The Steps
 
-First, I installed oh-my-posh:
+First, I installed oh-my-posh. Since I was installing on Windows, I did the following from the command line:
 
 ```bash
 winget install JanDeDobbeleer.OhMyPosh
@@ -60,6 +60,6 @@ Now when I open PowerShell, I see the new prompt. Note below that the Git inform
 <!-- using HTML markup, as I can set the image size using the width and attribute. -->
 <img src="images/oh-my-posh-result-with-git.png" alt="PowerShell Oh My Posh" width="800"/>
 
-Also note that the when viewing the git status from the git bash prompt, the git status shows four untracked files, shown in the oh-my-posh prompt with a +4, and one modified file, shown in the oh-my-posh prompt with a ~1
+Also note that the when viewing the git status from the git bash prompt, the git status shows four untracked files, shown in the oh-my-posh prompt with a `+4`, and one modified file, shown in the oh-my-posh prompt with a `~1`.
 
 The result is a more attractive prompt with useful information.
